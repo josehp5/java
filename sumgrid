@@ -1,0 +1,13 @@
+public class PracticeProblems {
+    public static double sumGrid(double[][] grid) {
+        double sum = 0;
+
+        for (double[] row : grid) {
+            for (double value : row) {
+                sum += value;
+            }
+        }
+
+        return sum;
+    }
+  }
