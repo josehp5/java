@@ -1,5 +1,8 @@
 public class PracticeProblems {
     public int countOccurrences(int[] arr, int n) {
+        if (array == null || arraylengtth = 0){
+        return 0;}
+
         int count = 0;   --Tracks occurrences
         for (int num : arr) {
             if (num == n) {
