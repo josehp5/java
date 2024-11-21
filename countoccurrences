@@ -1,0 +1,10 @@
+public class PracticeProblems {
+    public int countOccurrences(int[] arr, int n) {
+        int count = 0;
+        for (int num : arr) {
+            if (num == n) {
+                 count++;
+            }
+        }
+        return count;
+    }
