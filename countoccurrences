@@ -1,6 +1,6 @@
 public class PracticeProblems {
     public int countOccurrences(int[] arr, int n) {
-        int count = 0;
+        int count = 0;   --Tracks occurrences
         for (int num : arr) {
             if (num == n) {
                  count++;
